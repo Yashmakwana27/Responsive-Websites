@@ -1,0 +1,710 @@
+body {
+    background-color: rgb(16, 15, 15);
+}
+
+.Ibtn {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    z-index: 1;
+    padding: 10px;
+}
+
+.IIbtn {
+    background-color: rgb(243, 85, 57);
+    padding: 25px;
+    z-index: 1;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.Itxt2 {
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.IItxt2 {
+    color: orangered;
+    padding-top: 25px;
+    width: 42%;
+    border-bottom: 2px solid orangered;
+}
+
+.IIIbox {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    /* z-index: -1; */
+    /* top: -1; */
+    right: 0;
+    margin-top: -100px;
+    /* gap: 45px; */
+}
+
+.Ibox2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 150px;
+    background-color: rgb(22, 22, 22);
+
+}
+
+/* .box{
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+} */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    gap: 45px;
+}
+
+.navbar::after {
+    background-color: black;
+    scrollbar-3dlight-color: black;
+}
+
+.IIbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.Itxt1 {
+    color: rgb(208, 80, 33);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.IItxt1 {
+    color: white;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.Ibox1 {
+    left: 370px;
+    top: 250px;
+    position: absolute;
+}
+
+.Ibtn1 {
+    background-color: rgb(243, 85, 57);
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 25px;
+}
+
+.IIbox2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.IIIbox2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.box3 {
+    background-color: rgb(16, 15, 15);
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 150px;
+
+}
+
+.Ibox3 {
+    color: white;
+}
+
+.IIbox3 {
+    color: white;
+}
+
+.IIIbox3 {
+    color: white;
+}
+
+.Itxt3 {
+    padding-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.IItxt3 {
+    color: rgb(150, 146, 146);
+}
+
+/* .box4{
+    display: flex;
+   
+} */
+.Ibox4 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.IIbox4 {
+    display: flex;
+    justify-content: center;
+}
+
+.box5 {
+    padding: 150px;
+}
+
+.Ibtn5 {
+    background-color: rgb(243, 85, 57);
+    padding: 18px;
+    z-index: 1;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+
+.Ibox5 {
+    background-color: rgb(16, 15, 15);
+    padding: 50px;
+}
+
+.IIimg5 {
+    border: 1px solid gray;
+    padding: 55px;
+
+}
+
+.Ibox5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.Iimg5 {
+    border: 1px solid gray;
+    padding: 55px;
+}
+
+.IIbox5 {
+    display: flex;
+    gap: 24px;
+}
+
+.IIIbox5 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.box6 {
+    background-color: rgb(22, 22, 22);
+    padding: 200px;
+}
+
+.Ibox6 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.IIbox6 {
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    color: white;
+
+    padding-top: 35px;
+}
+
+.IIIbox6 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.Itxt6 {
+    margin-top: 35px;
+}
+
+.box7 {
+    padding: 180px;
+}
+
+.Ibox7 {
+    text-align: center;
+
+}
+
+.IIbox7 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 30px;
+}
+
+.SIbox7 {
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+    top: 320px;
+    padding: 30px;
+    left: 60px;
+}
+
+.SIIbox7 {
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+    top: 320px;
+    padding: 30px;
+    left: 430px;
+}
+
+.SIIIbox7 {
+    background-color: rgb(22, 22, 22);
+    position: absolute;
+    top: 320px;
+    padding: 30px;
+    left: 783px;
+}
+
+.box8 {
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 120px;
+}
+
+.Itxt8 {
+    color: rgb(149, 149, 149);
+}
+
+.box9 {
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+}
+
+.line {
+    border-bottom: 1px solid white;
+    height: 1px;
+}
+
+.Ibox9 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.IIbox9 {
+    display: flex;
+    gap: 10px;
+}
+body {
+    background-color: rgb(16, 15, 15);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 1400px) {
+    .Itxt2 {
+        font-size: 40px;
+    }
+
+    .IItxt2 {
+        width: 60%;
+        font-size: 30px;
+    }
+
+    .IIIbox {
+        margin-top: -50px;
+    }
+
+    .Ibox2 {
+        padding: 100px;
+    }
+
+    .navbar {
+        display: flex;
+        gap: 30px;
+    }
+
+    .IIbox {
+        display: flex;
+        gap: 30px;
+    }
+
+    .IItxt1 {
+       
+        font-size: 50px;
+    }
+
+    .IIbox2, .IIIbox2 {
+        width: 50%;
+    }
+
+    .box3 {
+        padding: 100px;
+        gap: 30px;
+    }
+
+    .Ibtn1 {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .IIimg5, .Iimg5 {
+        padding: 40px;
+    }
+
+    .Ibox5 {
+        display: flex;
+        gap: 40px;
+    }
+
+    .box6 {
+        padding: 150px;
+    }
+
+    .IIbox6 {
+        width: 70%;
+    }
+
+    .box7 {
+        padding: 150px;
+    }
+
+    .IIbox7 {
+        display: flex;
+        gap: 20px;
+    }
+
+    .SIbox7, .SIIbox7, .SIIIbox7 {
+        position: absolute;
+        top: 300px;
+        padding: 20px;
+    }
+
+    .box8 {
+        display: flex;
+        gap: 40px;
+        padding: 80px;
+    }
+
+    .box9 {
+        display: flex;
+        gap: 200px;
+    }
+
+    .Ibox9, .IIbox9 {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Ibox2 {
+        padding: 100px; /* Adjust padding to make it less spacious */
+    }
+
+    .navbar {
+        gap: 35px; /* Reduce the gap between navbar items */
+    }
+
+    .IIbox {
+        gap: 30px; /* Reduce the gap between items */
+    }
+
+    .Ibox1 {
+        left: 43px;
+    top: 250px;
+    position: absolute; /* Adjust the position */
+    }
+    .MIMG{
+        width: 33%;
+    }
+}
+@media screen and (max-width: 992px){
+    .box3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .IIIbox5{
+        display: grid;
+    }
+    .Ibox5{
+        display: grid;
+
+    }
+    .IIbox5{
+        display: flex;
+        
+    }
+    .IIbox7{
+        display: grid;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbar-icon {
+        display: block;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        width: 30px;
+        height: 30px;
+        background-image: url('path-to-icon-image'); /* Add path to your icon image */
+        background-size: cover;
+        z-index: 10;
+    }
+
+    .Itxt2 {
+        font-size: 24px;
+    }
+
+    .IItxt2 {
+        width: 80%;
+        font-size: 18px;
+        padding-top: 15px;
+    }
+
+    .IIIbox {
+        margin-top: -50px;
+    }
+
+    .Ibox2 {
+        padding: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .IIbox {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Itxt1 {
+        font-size: 20px;
+    }
+
+    .IItxt1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .Ibtn1 {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .IIbox2, .IIIbox2 {
+        width: 80%;
+    }
+
+    .box3 {
+        padding: 50px;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .IIimg5, .Iimg5 {
+        padding: 20px;
+    }
+
+    .Ibox5 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box6 {
+        padding: 50px;
+    }
+
+    .IIbox6 {
+        width: 90%;
+        padding-top: 20px;
+    }
+
+    .box7 {
+        padding: 50px;
+    }
+
+    .IIbox7 {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .SIbox7, .SIIbox7, .SIIIbox7 {
+        position: relative;
+        top: auto;
+        left: auto;
+        padding: 15px;
+    }
+
+    .box8 {
+        gap: 20px;
+        padding: 50px;
+        flex-direction: column;
+    }
+
+    .box9 {
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .Ibox9, .IIbox9 {
+        gap: 5px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .Itxt2 {
+        font-size: 30px;
+    }
+    .box1{
+        display: none;
+    }
+    .IItxt2 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .IIIbox {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .Ibox2 {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .IIbox {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .IItxt1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .IIbox2, .IIIbox2 {
+        width: 100%;
+        align-items: center;
+    }
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .Ibtn1 {
+        display: flex;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .IIimg5, .Iimg5 {
+        padding: 20px;
+    }
+
+    .Ibox5 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .box6 {
+        padding: 50px;
+    }
+
+    .IIbox6 {
+        width: 90%;
+    }
+
+    .box7 {
+        padding: 50px;
+    }
+
+    .IIbox7 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .SIbox7, .SIIbox7, .SIIIbox7 {
+        position: static;
+        padding: 20px;
+    }
+
+    .box8 {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        gap: 20px;
+    }
+
+    .box9 {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        gap: 20px;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    .Ibox9, .IIbox9 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
